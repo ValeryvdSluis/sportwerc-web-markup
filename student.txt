@@ -1,5 +1,5 @@
 Student name: Valery van der Sluis 
 Student number: 764590
 Student class: URLHAIT26FT1C
-GitHub Repository: https://github.com/ValeryvdSluis/web-markup
-GitHub Pages URL: https://valeryvdsluis.github.io/web-markup/ 
+GitHub Repository: https://github.com/ValeryvdSluis/sportwerc-web-markup
+GitHub Pages URL: https://valeryvdsluis.github.io/sportwerc-web-markup/
