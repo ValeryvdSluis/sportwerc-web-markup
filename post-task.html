@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="author" content="Valery van der Sluis">
+	<meta name="description" content="Sports clubs can use SportWerc to post requests for referees, volunteers, coaches and other club activities.">
+	<meta name="keywords" content="sports, volunteers, referee, clubs, tasks">
+
+	<title>SportWerc | Post a task</title>
+
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+	<link rel="icon" href="img/favicon.png" type="image/png">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+		<h1>Post a task</h1>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="how-it-works.html">How it works</a></li>
+				<li><a href="find-task.html">Find a task</a></li>
+				<li><a href="post-task.html" aria-current="page">Post a task</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<main>
+
+		<section>
+			<h2>Post a task for your club</h2>
+
+			<p>
+				Does your sports club need help? Use the form below to create
+				a request for a referee, volunteer, coach or another activity.
+			</p>
+
+			<form>
+
+				<fieldset>
+					<legend>Task information</legend>
+
+					<label for="club-name">Club name:</label>
+					<input type="text" id="club-name" name="club-name">
+
+					<label for="task-type">Type of task:</label>
+					<select id="task-type" name="task-type">
+						<option value="referee">Referee</option>
+						<option value="bar-duty">Bar duty</option>
+						<option value="coach">Coach</option>
+						<option value="event">Event support</option>
+						<option value="other">Other</option>
+					</select>
+
+					<label for="date">Date:</label>
+					<input type="date" id="date" name="date">
+
+					<label for="time">Time:</label>
+					<input type="time" id="time" name="time">
+
+					<label for="location">Location:</label>
+					<input type="text" id="location" name="location">
+
+					<label for="description">Description:</label>
+					<textarea id="description" name="description"></textarea>
+
+				</fieldset>
+
+
+				<fieldset>
+					<legend>Contact information</legend>
+
+					<label for="contact-name">Contact name:</label>
+					<input type="text" id="contact-name" name="contact-name">
+
+					<label for="contact-email">Contact email:</label>
+					<input type="email" id="contact-email" name="contact-email">
+
+				</fieldset>
+
+
+				<input type="submit" value="Post task">
+
+			</form>
+		</section>
+
+	</main>
+
+	<aside class="cookies">
+		<p>We use cookies to improve your experience on SportWerc.</p>
+	</aside>
+
+	<footer>
+		<p>&copy; 2026 SportWerc. All rights reserved.</p>
+
+		<p>
+			SportWerc&trade; &amp; SportWerc&reg; &ndash; &quot;Every match needs a referee.&quot;
+			Posting a task costs &euro;0 / &pound;0.
+		</p>
+	</footer>
+
+</body>
+
+</html>
